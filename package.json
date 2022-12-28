@@ -12,5 +12,18 @@
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "Simple web for personal portfolio using node.js, express.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamChintan/my_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamChintan/my_portfolio/issues"
+  },
+  "homepage": "https://github.com/iamChintan/my_portfolio#readme"
 }
