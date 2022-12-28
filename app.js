@@ -10,6 +10,9 @@ var homeController = require('./routes/Home');
 var aboutUsController = require('./routes/About');
 var projectController = require('./routes/Project');
 var contactUsController = require('./routes/Contact');
+var educationsController = require('./routes/Educations');
+var experienceController = require('./routes/Experience');
+var certificatesController = require('./routes/Certificates');
 
 var app = express();
 
@@ -24,9 +27,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', homeController);
+app.use('/educations', educationsController);
+app.use('/experience', experienceController);
+app.use('/certificates', certificatesController);
 app.use('/project', projectController);
 app.use('/about', aboutUsController);
 app.use('/contact', contactUsController);
+
 
 
 
