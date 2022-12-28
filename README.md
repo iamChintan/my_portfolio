@@ -5,7 +5,7 @@ Simple web for personal portfolio using node.js, express.
 
 Click the below link to see a live preview
 
-https://chintanlimbani.herokuapp.com/
+https://chintan.onrender.com/
 
 ## Getting Started
 
