@@ -8,11 +8,13 @@ var certificatesController = require('./Certificate');
 var contactUsController = require('./Contact');
 var educationsController = require('./Educations');
 var experienceController = require('./Experience');
+var academicProjectController = require('./AcademicProject');
 
 router.get('/', homeController);
 router.get('/educations', educationsController);
 router.get('/experience', experienceController);
 router.get('/certificate', certificatesController);
+router.get('/AcademicProject', academicProjectController);
 router.get('/project', projectController);
 router.get('/about', aboutUsController);
 router.get('/contact', contactUsController);

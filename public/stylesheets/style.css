@@ -11478,7 +11478,18 @@ section.resume-section .resume-section-content {
   border: 2px solid #1f5297;
 }
 
+star {
+  padding-left: 2rem;
+  list-style-type: none;
+}
 
+star starItem {
+  padding-left: 2rem;
+  background-image: url(favicon.ico);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
 
 
 @-webkit-keyframes animate-loading {

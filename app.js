@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var homeController = require('./routes/Home');
 var aboutUsController = require('./routes/About');
 var projectController = require('./routes/Project');
+var academicprojectController = require('./routes/AcademicProject');
 var contactUsController = require('./routes/Contact');
 var educationsController = require('./routes/Educations');
 var experienceController = require('./routes/Experience');
@@ -31,6 +32,7 @@ app.use('/educations', educationsController);
 app.use('/experience', experienceController);
 app.use('/certificate', certificatesController);
 app.use('/project', projectController);
+app.use('/AcademicProject', academicprojectController);
 app.use('/about', aboutUsController);
 app.use('/contact', contactUsController);
 
