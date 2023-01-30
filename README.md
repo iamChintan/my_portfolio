@@ -1,5 +1,5 @@
 # my_portfolio
-Simple web for personal portfolio using node.js, express.
+Simple web for personal portfolio using Node.JS and express.
 
 ## Preview
 
